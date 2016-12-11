@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View1" customModule="Tour_Guide" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="DQ4-hj-nk3" id="0Ul-wk-qgB"/>
+                <outlet property="tempImageView" destination="Pki-Qk-Oyx" id="OSU-d3-hXs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQ4-hj-nk3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pki-Qk-Oyx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DQ4-hj-nk3" secondAttribute="trailing" id="1yR-DP-Xa7"/>
+                <constraint firstAttribute="bottom" secondItem="DQ4-hj-nk3" secondAttribute="bottom" id="4HT-c4-kiE"/>
+                <constraint firstItem="DQ4-hj-nk3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="C9H-6S-JF9"/>
+                <constraint firstItem="Pki-Qk-Oyx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FId-Oz-hEI"/>
+                <constraint firstAttribute="trailing" secondItem="Pki-Qk-Oyx" secondAttribute="trailing" id="HF7-3r-sLT"/>
+                <constraint firstItem="DQ4-hj-nk3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Hcb-62-Jhp"/>
+                <constraint firstItem="DQ4-hj-nk3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WQp-BK-bbD"/>
+                <constraint firstItem="Pki-Qk-Oyx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZuQ-NV-RfF"/>
+                <constraint firstItem="Pki-Qk-Oyx" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="aiE-nX-GHd"/>
+                <constraint firstAttribute="bottom" secondItem="Pki-Qk-Oyx" secondAttribute="bottom" id="kjI-ee-ooD"/>
+                <constraint firstItem="Pki-Qk-Oyx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wHA-e1-9Yr"/>
+                <constraint firstItem="DQ4-hj-nk3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yVO-vP-4oV"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

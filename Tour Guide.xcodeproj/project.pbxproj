@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F70DD0DD1DFD29B9009CFF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD0DC1DFD29B9009CFF66 /* AppDelegate.swift */; };
-		F70DD0DF1DFD29B9009CFF66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD0DE1DFD29B9009CFF66 /* ViewController.swift */; };
+		F70DD0DF1DFD29B9009CFF66 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD0DE1DFD29B9009CFF66 /* CameraViewController.swift */; };
 		F70DD0E21DFD29B9009CFF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70DD0E01DFD29B9009CFF66 /* Main.storyboard */; };
 		F70DD0E41DFD29B9009CFF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70DD0E31DFD29B9009CFF66 /* Assets.xcassets */; };
 		F70DD0E71DFD29B9009CFF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70DD0E51DFD29B9009CFF66 /* LaunchScreen.storyboard */; };
 		F70DD0F21DFD29B9009CFF66 /* Tour_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD0F11DFD29B9009CFF66 /* Tour_GuideTests.swift */; };
 		F70DD0FD1DFD29B9009CFF66 /* Tour_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD0FC1DFD29B9009CFF66 /* Tour_GuideUITests.swift */; };
+		F7BF2CC21DFE00B7009CC89B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF2CC11DFE00B7009CC89B /* MainViewController.swift */; };
+		F7BF2CC51DFE010B009CC89B /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF2CC31DFE010B009CC89B /* View1.swift */; };
+		F7BF2CC61DFE010B009CC89B /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BF2CC41DFE010B009CC89B /* View1.xib */; };
+		F7BF2CC91DFE02A9009CC89B /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF2CC71DFE02A9009CC89B /* View2.swift */; };
+		F7BF2CCA1DFE02A9009CC89B /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BF2CC81DFE02A9009CC89B /* View2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		F70DD0D91DFD29B9009CFF66 /* Tour Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70DD0DC1DFD29B9009CFF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F70DD0DE1DFD29B9009CFF66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70DD0DE1DFD29B9009CFF66 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F70DD0E11DFD29B9009CFF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F70DD0E31DFD29B9009CFF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F70DD0E61DFD29B9009CFF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		F70DD0F81DFD29B9009CFF66 /* Tour GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70DD0FC1DFD29B9009CFF66 /* Tour_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour_GuideUITests.swift; sourceTree = "<group>"; };
 		F70DD0FE1DFD29B9009CFF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BF2CC11DFE00B7009CC89B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F7BF2CC31DFE010B009CC89B /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		F7BF2CC41DFE010B009CC89B /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		F7BF2CC71DFE02A9009CC89B /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		F7BF2CC81DFE02A9009CC89B /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				F70DD0DC1DFD29B9009CFF66 /* AppDelegate.swift */,
-				F70DD0DE1DFD29B9009CFF66 /* ViewController.swift */,
+				F70DD0DE1DFD29B9009CFF66 /* CameraViewController.swift */,
 				F70DD0E01DFD29B9009CFF66 /* Main.storyboard */,
+				F7BF2CC31DFE010B009CC89B /* View1.swift */,
+				F7BF2CC41DFE010B009CC89B /* View1.xib */,
+				F7BF2CC11DFE00B7009CC89B /* MainViewController.swift */,
+				F7BF2CC71DFE02A9009CC89B /* View2.swift */,
+				F7BF2CC81DFE02A9009CC89B /* View2.xib */,
 				F70DD0E31DFD29B9009CFF66 /* Assets.xcassets */,
 				F70DD0E51DFD29B9009CFF66 /* LaunchScreen.storyboard */,
 				F70DD0E81DFD29B9009CFF66 /* Info.plist */,
@@ -237,6 +252,8 @@
 			files = (
 				F70DD0E71DFD29B9009CFF66 /* LaunchScreen.storyboard in Resources */,
 				F70DD0E41DFD29B9009CFF66 /* Assets.xcassets in Resources */,
+				F7BF2CC61DFE010B009CC89B /* View1.xib in Resources */,
+				F7BF2CCA1DFE02A9009CC89B /* View2.xib in Resources */,
 				F70DD0E21DFD29B9009CFF66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F70DD0DF1DFD29B9009CFF66 /* ViewController.swift in Sources */,
+				F7BF2CC91DFE02A9009CC89B /* View2.swift in Sources */,
+				F7BF2CC21DFE00B7009CC89B /* MainViewController.swift in Sources */,
+				F70DD0DF1DFD29B9009CFF66 /* CameraViewController.swift in Sources */,
+				F7BF2CC51DFE010B009CC89B /* View1.swift in Sources */,
 				F70DD0DD1DFD29B9009CFF66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SYX7LE8SD2;
 				INFOPLIST_FILE = "Tour Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ati.winterBreakProject.Tour-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SYX7LE8SD2;
 				INFOPLIST_FILE = "Tour Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ati.winterBreakProject.Tour-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +534,7 @@
 				F70DD1031DFD29B9009CFF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F70DD1041DFD29B9009CFF66 /* Build configuration list for PBXNativeTarget "Tour GuideTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +543,7 @@
 				F70DD1061DFD29B9009CFF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F70DD1071DFD29B9009CFF66 /* Build configuration list for PBXNativeTarget "Tour GuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +552,7 @@
 				F70DD1091DFD29B9009CFF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
